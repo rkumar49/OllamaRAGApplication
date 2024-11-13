@@ -24,6 +24,8 @@ Content Chunking: The text content is split into manageable chunks.
 Embeddings Creation: These chunks are converted into embeddings using the nomic-embed-text model and stored in a vector database (Chroma).
 Question Processing: The user’s question is processed through a Retrieval-Augmented Generation (RAG) pipeline, which retrieves relevant document sections and generates an answer using the Mistral 7B model.
 
+![Ollam-RAG](https://github.com/user-attachments/assets/d610dbdf-e77f-4aff-9500-3cbc884bf0c5)
+
 
 ## How to Use This Repository
 
