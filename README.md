@@ -3,9 +3,13 @@
 Key Technologies
 
 Streamlit: For building an intuitive and interactive user interface.
+
 LangChain: Leveraging community components for efficient document handling and question answering.
+
 Ollama: A tool that facilitates running large language models (LLMs) locally.
+
 Mistral 7B: An open-source model used for text embeddings and retrieval-based question answering.
+
 nomic-embed-text Model: A high-performing open embedding model with a large token context window that outperforms OpenAI embeddings.
 
 Why Use Ollama?
