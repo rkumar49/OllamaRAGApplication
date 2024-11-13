@@ -13,19 +13,29 @@ Mistral 7B: An open-source model used for text embeddings and retrieval-based qu
 nomic-embed-text Model: A high-performing open embedding model with a large token context window that outperforms OpenAI embeddings.
 
 Why Use Ollama?
-Ollama is an excellent tool for running open-source LLMs locally, such as Mistral and Llama 2. Here are some reasons why Ollama stands out:
+
+Ollama is an excellent tool for running open-source LLMs locally, such as Mistral and Llama 2. 
+Here are some reasons why Ollama stands out:
 
 Unified Package: Ollama bundles model weights, configurations, and datasets into a single, manageable package known as a Model file.
+
 Versatility: It supports a variety of LLMs, including LLaMA-2, uncensored LLaMA, CodeLLaMA, Falcon, Mistral, Vicuna model, WizardCoder, and Wizard uncensored.
+
 Security: By running LLMs locally, Ollama ensures that your data remains safe and secure.
 
+
 App Overview
+
 On a fundamental level, the workflow of the app is remarkably straightforward:
 
 User Input: A user submits a list of URLs (one per line) and enters a question.
+
 Content Fetching: The app processes the input, fetching the content from the provided URLs.
+
 Content Chunking: The text content is split into manageable chunks.
+
 Embeddings Creation: These chunks are converted into embeddings using the nomic-embed-text model and stored in a vector database (Chroma).
+
 Question Processing: The user’s question is processed through a Retrieval-Augmented Generation (RAG) pipeline, which retrieves relevant document sections and generates an answer using the Mistral 7B model.
 
 ![Ollam-RAG](https://github.com/user-attachments/assets/d610dbdf-e77f-4aff-9500-3cbc884bf0c5)
