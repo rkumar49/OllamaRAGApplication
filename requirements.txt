@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+streamlit
+chromadb
+tiktoken
+beautifulsoup4
+duckduckgo-search
+streamlit-feedback
+trubrics>=1.4.3
